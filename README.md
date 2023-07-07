@@ -4,4 +4,4 @@ This template enables Direct Publisher channels to be converted to SDK with mini
 
 
 git push -u origin main
-zip -r build.zip ../idiot-box -x '*.git*'
+zip -r build.zip certs/ components/ images/ source/ manifest -x '*.git*'

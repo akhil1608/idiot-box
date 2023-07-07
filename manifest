@@ -21,7 +21,7 @@ supports_input_launch=1
 
 # ' Update content feed URL
 
-FEED_URL=pkg:/titles.json
+FEED_URL=https://raw.githubusercontent.com/akhil1608/idiot-box/main/titles.json
 #FEED_URL=https://ovp-feeds2-886239521314.s3.amazonaws.com/roku_tips_and_tricks_clip/ovpfeed.json
 #FEED_URL=https://content.jwplatform.com/feeds/6V5vHuPm.rss
 
