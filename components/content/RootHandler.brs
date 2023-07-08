@@ -5,7 +5,7 @@ sub GetContent()
     appInfo = CreateObject("roAppInfo")
     feedURL = appInfo.GetValue("FEED_URL")
 
-    MAXSIZE = 500 * 1024
+    MAXSIZE = 10 * 1024 * 1024
 
     print feedURL
 
@@ -132,6 +132,8 @@ function parseRokuFeedSpec(xmlString as string) as Object
                             end if
                             Utils_ForceSetFields(itemNode, { "seasons": seasonArray })
                         end if
+                        if item = "Featured"
+                            itemNode.Url = arrayItem.content.videos[0].url
                         children.Push(itemNode)
                     end for
 
