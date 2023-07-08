@@ -134,6 +134,7 @@ function parseRokuFeedSpec(xmlString as string) as Object
                         end if
                         if item = "Featured"
                             itemNode.Url = arrayItem.content.videos[0].url
+                        end if
                         children.Push(itemNode)
                     end for
 
