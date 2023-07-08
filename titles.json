@@ -34,7 +34,8 @@
 			]
 		}
 	],
-	"series": [{
+	"series": [
+        {
 			"id": "friends1994",
 			"title": "F.R.I.E.N.D.S.",
 			"releaseDate": "1994-05-13",
@@ -43,36 +44,38 @@
 			"genres": [
 				"sitcom"
 			],
-            "seasons": {
-                "seasonNumber": 1,
-                "episodes": [
-                    {
-                        "id": "friends1994s1e1",
-                        "title": "Pilot",
-                        "episodeNumber": 1,
-                        "content": {
-                            "dateAdded": "1994-05-13T00:00:00-04:00",
-                            "videos": [
-                                {
-                                    "videoType": "HLS",
-                                    "url": "https://ovp-selector.sr.roku.com/v1/abe94c68-6722-475e-b49d-9ea1d2f0801e?format=hls",
-                                    "quality": "HD"
-                                }
-                            ],
-                            "duration": 22,
-                            "language": "en-us"
-                        },
-                        "thumbnail": "https://image.roku.com/ZHZscHItMTc2/roku-developers-summit-poster-v2.jpg",
-                        "shortDescription": "The Roku Developer Relations team welcomes Roku developers to the 2020 Developer Summit.",
-                        "releaseDate": "2020-10-13",
-                        "longDescription": "The Roku Developer Relations team welcomes Roku developers to the 2020 Developer Summit.",
-                        "tags": [],
-                        "genres": [
-                            "sitcom"
-                        ]
-                    }
-                ]
-            }
+            "seasons": [
+                {
+                    "seasonNumber": 1,
+                    "episodes": [
+                        {
+                            "id": "friends1994s1e1",
+                            "title": "Pilot",
+                            "episodeNumber": 1,
+                            "content": {
+                                "dateAdded": "1994-05-13T00:00:00-04:00",
+                                "videos": [
+                                    {
+                                        "videoType": "HLS",
+                                        "url": "https://ovp-selector.sr.roku.com/v1/abe94c68-6722-475e-b49d-9ea1d2f0801e?format=hls",
+                                        "quality": "HD"
+                                    }
+                                ],
+                                "duration": 22,
+                                "language": "en-us"
+                            },
+                            "thumbnail": "https://image.roku.com/ZHZscHItMTc2/roku-developers-summit-poster-v2.jpg",
+                            "shortDescription": "The Roku Developer Relations team welcomes Roku developers to the 2020 Developer Summit.",
+                            "releaseDate": "2020-10-13",
+                            "longDescription": "The Roku Developer Relations team welcomes Roku developers to the 2020 Developer Summit.",
+                            "tags": [],
+                            "genres": [
+                                "sitcom"
+                            ]
+                        }
+                    ]
+                }
+            ]
 		}
 	],
 	"playlists": [
