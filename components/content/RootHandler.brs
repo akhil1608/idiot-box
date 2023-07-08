@@ -37,7 +37,7 @@ sub GetContent()
         endif 
     else
         if( feed.Len() > MAXSIZE )
-            'any feed over 500Kb is too large to parse locally
+            'any feed over MAXSIZE is too large to parse locally
             print "FEED is too large: ", feed.Len()
             rootChildren = {
                 children: []
@@ -97,7 +97,7 @@ function parseRokuFeedSpec(xmlString as string) as Object
             }
             for each item in json
                 value = json[item]
-                if item = "movies" or item = "series" or item = "shortFormVideos" or item = "tvSpecials" or item = "liveFeeds"
+                if item = "movies" or item = "series" or item = "shortFormVideos" or item = "tvSpecials" or item = "liveFeeds" or item = "Featured"
                     children = []
                     for each arrayItem in value
                         itemNode = CreateObject("roSGNode", "ContentNode")
