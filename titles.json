@@ -10,7 +10,7 @@
 		{
 			"id": "gow12012",
 			"title": "Gangs Of Wasseypur (Part 1)",
-            "thumbnail": "https://image.roku.com/ZHZscHItMTc2/platform-update-qa-V2.jpg",
+            "thumbnail": "https://images.indianexpress.com/2022/08/gangs-of-wasseypur.jpg",
             "releaseDate": "2012-06-22",
 			"content": {
 				"dateAdded": "2023-07-07T00:00:00-04:00",
@@ -32,50 +32,32 @@
 				"drama",
                 "action"
 			]
-		}
-	],
-	"series": [
+		},
         {
-			"id": "friends1994",
-			"title": "F.R.I.E.N.D.S.",
-			"releaseDate": "1994-05-13",
-			"shortDescription": "Six young men and women live in the same apartment complex and face life and love together in Manhattan, New York City.",
-			"thumbnail": "https://flxt.tmsimg.com/assets/p183931_b_v8_ac.jpg",
-			"genres": [
-				"sitcom"
+			"id": "gow22012",
+			"title": "Gangs Of Wasseypur (Part 2)",
+            "thumbnail": "https://static-koimoi.akamaized.net/wp-content/new-galleries/2020/08/nawazuddin-siddiqui-receives-another-round-of-appreciation-for-gangs-of-wasseypur-001.jpg",
+            "releaseDate": "2012-08-08",
+			"content": {
+				"dateAdded": "2023-07-07T00:00:00-04:00",
+				"videos": [
+                    {
+                        "videoType": "MP4",
+                        "url": "https://image.roku.com/ZHZscHItMTc2/dev-summit-platform-qa.mp4",
+                        "quality": "HD"
+                    }
+                ],
+				"duration": 159,
+				"language": "hin"
+			},
+			"shortDescription": "Sardar sets out to avenge his father who was murdered by Ramadhir Singh, a cunning politician and mining kingpin. In the ensuing war, many unresolved family feuds erupt creating unrest.",
+			"longDescription": "Sardar sets out to avenge his father who was murdered by Ramadhir Singh, a cunning politician and mining kingpin. In the ensuing war, many unresolved family feuds erupt creating unrest.",
+            "tags": [
 			],
-            "seasons": [
-                {
-                    "seasonNumber": 1,
-                    "episodes": [
-                        {
-                            "id": "friends1994s1e1",
-                            "title": "Pilot",
-                            "episodeNumber": 1,
-                            "content": {
-                                "dateAdded": "1994-05-13T00:00:00-04:00",
-                                "videos": [
-                                    {
-                                        "videoType": "HLS",
-                                        "url": "https://ovp-selector.sr.roku.com/v1/abe94c68-6722-475e-b49d-9ea1d2f0801e?format=hls",
-                                        "quality": "HD"
-                                    }
-                                ],
-                                "duration": 22,
-                                "language": "en-us"
-                            },
-                            "thumbnail": "https://image.roku.com/ZHZscHItMTc2/roku-developers-summit-poster-v2.jpg",
-                            "shortDescription": "The Roku Developer Relations team welcomes Roku developers to the 2020 Developer Summit.",
-                            "releaseDate": "2020-10-13",
-                            "longDescription": "The Roku Developer Relations team welcomes Roku developers to the 2020 Developer Summit.",
-                            "tags": [],
-                            "genres": [
-                                "sitcom"
-                            ]
-                        }
-                    ]
-                }
-            ]
+			"genres": [
+				"drama",
+                "action"
+			]
 		}
 	],
 	"playlists": [
